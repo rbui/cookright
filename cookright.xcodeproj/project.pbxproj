@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		468C2CD6163350E300D13771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468C2CD5163350E300D13771 /* Foundation.framework */; };
+		468C2CD8163350E300D13771 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468C2CD7163350E300D13771 /* CoreGraphics.framework */; };
+		468C2CDA163350E300D13771 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468C2CD9163350E300D13771 /* QuartzCore.framework */; };
+		468C2CDC163350E300D13771 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468C2CDB163350E300D13771 /* UIKit.framework */; };
+		468C2CE2163350E300D13771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 468C2CE1163350E300D13771 /* main.m */; };
+		468C2CE7163350E300D13771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 468C2CE6163350E300D13771 /* AppDelegate.m */; };
+		468C2CED163350E300D13771 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 468C2CEC163350E300D13771 /* InfoPlist.strings */; };
+		468C2CF0163350E300D13771 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 468C2CEF163350E300D13771 /* iTunesArtwork */; };
+		468C2CF2163350E300D13771 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 468C2CF1163350E300D13771 /* iTunesArtwork@2x */; };
+		468C2D03163350E300D13771 /* icon_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D02163350E300D13771 /* icon_iphone.png */; };
+		468C2D05163350E300D13771 /* icon_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D04163350E300D13771 /* icon_iphone@2x.png */; };
+		468C2D07163350E300D13771 /* icon_iphone_spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D06163350E300D13771 /* icon_iphone_spotlight.png */; };
+		468C2D09163350E300D13771 /* icon_iphone_spotlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D08163350E300D13771 /* icon_iphone_spotlight@2x.png */; };
+		468C2D0B163350E300D13771 /* launch_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D0A163350E300D13771 /* launch_iphone.png */; };
+		468C2D0D163350E300D13771 /* launch_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D0C163350E300D13771 /* launch_iphone@2x.png */; };
+		468C2D19163350E300D13771 /* icon_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D18163350E300D13771 /* icon_ipad.png */; };
+		468C2D1B163350E300D13771 /* icon_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D1A163350E300D13771 /* icon_ipad@2x.png */; };
+		468C2D1D163350E300D13771 /* icon_ipad_spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D1C163350E300D13771 /* icon_ipad_spotlight.png */; };
+		468C2D1F163350E300D13771 /* icon_ipad_spotlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D1E163350E300D13771 /* icon_ipad_spotlight@2x.png */; };
+		468C2D21163350E300D13771 /* launch_ipad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D20163350E300D13771 /* launch_ipad-Portrait.png */; };
+		468C2D23163350E300D13771 /* launch_ipad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D22163350E300D13771 /* launch_ipad-Landscape.png */; };
+		468C2D25163350E300D13771 /* launch_ipad-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D24163350E300D13771 /* launch_ipad-Portrait@2x.png */; };
+		468C2D27163350E300D13771 /* launch_ipad-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D26163350E300D13771 /* launch_ipad-Landscape@2x.png */; };
+		468C2D34163357DC00D13771 /* CRRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D33163357DC00D13771 /* CRRootView.xib */; };
+		468C2D371633586300D13771 /* CRRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468C2D361633586300D13771 /* CRRootController.m */; };
+		468C2D4116335E5300D13771 /* CRRecipesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D4016335E5300D13771 /* CRRecipesView.xib */; };
+		468C2D4316335E8300D13771 /* CRMyIngredientsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D4216335E8300D13771 /* CRMyIngredientsView.xib */; };
+		468C2D461633602C00D13771 /* CRRecipesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 468C2D451633602C00D13771 /* CRRecipesView.m */; };
+		468C2D491633604B00D13771 /* CRMyIngredientsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 468C2D481633604B00D13771 /* CRMyIngredientsView.m */; };
+		468C2D4B1633637D00D13771 /* CRSetupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D4A1633637D00D13771 /* CRSetupView.xib */; };
+		468C2D4E1633647100D13771 /* CRSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468C2D4D1633647100D13771 /* CRSetupViewController.m */; };
+		468C2D511633654600D13771 /* CRRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468C2D501633654500D13771 /* CRRootNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		468C2CD1163350E300D13771 /* cookright.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cookright.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		468C2CD5163350E300D13771 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		468C2CD7163350E300D13771 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		468C2CD9163350E300D13771 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		468C2CDB163350E300D13771 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		468C2CDF163350E300D13771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468C2CE0163350E300D13771 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		468C2CE1163350E300D13771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		468C2CE3163350E300D13771 /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		468C2CE5163350E300D13771 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		468C2CE6163350E300D13771 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		468C2CEC163350E300D13771 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		468C2CEF163350E300D13771 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		468C2CF1163350E300D13771 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		468C2D02163350E300D13771 /* icon_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_iphone.png; sourceTree = "<group>"; };
+		468C2D04163350E300D13771 /* icon_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_iphone@2x.png"; sourceTree = "<group>"; };
+		468C2D06163350E300D13771 /* icon_iphone_spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_iphone_spotlight.png; sourceTree = "<group>"; };
+		468C2D08163350E300D13771 /* icon_iphone_spotlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_iphone_spotlight@2x.png"; sourceTree = "<group>"; };
+		468C2D0A163350E300D13771 /* launch_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_iphone.png; sourceTree = "<group>"; };
+		468C2D0C163350E300D13771 /* launch_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_iphone@2x.png"; sourceTree = "<group>"; };
+		468C2D18163350E300D13771 /* icon_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ipad.png; sourceTree = "<group>"; };
+		468C2D1A163350E300D13771 /* icon_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ipad@2x.png"; sourceTree = "<group>"; };
+		468C2D1C163350E300D13771 /* icon_ipad_spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ipad_spotlight.png; sourceTree = "<group>"; };
+		468C2D1E163350E300D13771 /* icon_ipad_spotlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ipad_spotlight@2x.png"; sourceTree = "<group>"; };
+		468C2D20163350E300D13771 /* launch_ipad-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_ipad-Portrait.png"; sourceTree = "<group>"; };
+		468C2D22163350E300D13771 /* launch_ipad-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_ipad-Landscape.png"; sourceTree = "<group>"; };
+		468C2D24163350E300D13771 /* launch_ipad-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_ipad-Portrait@2x.png"; sourceTree = "<group>"; };
+		468C2D26163350E300D13771 /* launch_ipad-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_ipad-Landscape@2x.png"; sourceTree = "<group>"; };
+		468C2D33163357DC00D13771 /* CRRootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRRootView.xib; sourceTree = "<group>"; };
+		468C2D351633586300D13771 /* CRRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRootController.h; sourceTree = "<group>"; };
+		468C2D361633586300D13771 /* CRRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRootController.m; sourceTree = "<group>"; };
+		468C2D4016335E5300D13771 /* CRRecipesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRRecipesView.xib; sourceTree = "<group>"; };
+		468C2D4216335E8300D13771 /* CRMyIngredientsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRMyIngredientsView.xib; sourceTree = "<group>"; };
+		468C2D441633602C00D13771 /* CRRecipesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRecipesView.h; sourceTree = "<group>"; };
+		468C2D451633602C00D13771 /* CRRecipesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRecipesView.m; sourceTree = "<group>"; };
+		468C2D471633604B00D13771 /* CRMyIngredientsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMyIngredientsView.h; sourceTree = "<group>"; };
+		468C2D481633604B00D13771 /* CRMyIngredientsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMyIngredientsView.m; sourceTree = "<group>"; };
+		468C2D4A1633637D00D13771 /* CRSetupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRSetupView.xib; sourceTree = "<group>"; };
+		468C2D4C1633647100D13771 /* CRSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRSetupViewController.h; sourceTree = "<group>"; };
+		468C2D4D1633647100D13771 /* CRSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRSetupViewController.m; sourceTree = "<group>"; };
+		468C2D4F1633654500D13771 /* CRRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRootNavigationController.h; sourceTree = "<group>"; };
+		468C2D501633654500D13771 /* CRRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRootNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		468C2CCE163350E300D13771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468C2CD6163350E300D13771 /* Foundation.framework in Frameworks */,
+				468C2CD8163350E300D13771 /* CoreGraphics.framework in Frameworks */,
+				468C2CDA163350E300D13771 /* QuartzCore.framework in Frameworks */,
+				468C2CDC163350E300D13771 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		468C2CC6163350E300D13771 = {
+			isa = PBXGroup;
+			children = (
+				468C2CDD163350E300D13771 /* cookright */,
+				468C2CD4163350E300D13771 /* Frameworks */,
+				468C2CD2163350E300D13771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		468C2CD2163350E300D13771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				468C2CD1163350E300D13771 /* cookright.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		468C2CD4163350E300D13771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				468C2CD5163350E300D13771 /* Foundation.framework */,
+				468C2CD7163350E300D13771 /* CoreGraphics.framework */,
+				468C2CD9163350E300D13771 /* QuartzCore.framework */,
+				468C2CDB163350E300D13771 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		468C2CDD163350E300D13771 /* cookright */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D12163350E300D13771 /* iPad */,
+				468C2CFC163350E300D13771 /* iPhone */,
+				468C2CE4163350E300D13771 /* Shared */,
+				468C2CDE163350E300D13771 /* Supporting Files */,
+			);
+			path = cookright;
+			sourceTree = "<group>";
+		};
+		468C2CDE163350E300D13771 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				468C2CDF163350E300D13771 /* Info.plist */,
+				468C2CE0163350E300D13771 /* Prefix.pch */,
+				468C2CE1163350E300D13771 /* main.m */,
+				468C2CE3163350E300D13771 /* Entitlements.entitlements */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		468C2CE4163350E300D13771 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				468C2CE5163350E300D13771 /* AppDelegate.h */,
+				468C2CE6163350E300D13771 /* AppDelegate.m */,
+				468C2CFB163350E300D13771 /* Frameworks */,
+				468C2CF4163350E300D13771 /* Classes */,
+				468C2CEB163350E300D13771 /* Resources */,
+				468C2CE8163350E300D13771 /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		468C2CE8163350E300D13771 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				468C2CEA163350E300D13771 /* Controllers */,
+				468C2CE9163350E300D13771 /* Controls */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		468C2CE9163350E300D13771 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		468C2CEA163350E300D13771 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D33163357DC00D13771 /* CRRootView.xib */,
+				468C2D4016335E5300D13771 /* CRRecipesView.xib */,
+				468C2D4216335E8300D13771 /* CRMyIngredientsView.xib */,
+				468C2D4A1633637D00D13771 /* CRSetupView.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		468C2CEB163350E300D13771 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				468C2CEC163350E300D13771 /* InfoPlist.strings */,
+				468C2CEE163350E300D13771 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		468C2CEE163350E300D13771 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				468C2CEF163350E300D13771 /* iTunesArtwork */,
+				468C2CF1163350E300D13771 /* iTunesArtwork@2x */,
+				468C2CF3163350E300D13771 /* Common */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		468C2CF3163350E300D13771 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		468C2CF4163350E300D13771 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				468C2CFA163350E300D13771 /* Common */,
+				468C2CF9163350E300D13771 /* Controllers */,
+				468C2CF8163350E300D13771 /* Controls */,
+				468C2CF7163350E300D13771 /* Categories */,
+				468C2CF6163350E300D13771 /* Managers */,
+				468C2CF5163350E300D13771 /* Services */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		468C2CF5163350E300D13771 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		468C2CF6163350E300D13771 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		468C2CF7163350E300D13771 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		468C2CF8163350E300D13771 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		468C2CF9163350E300D13771 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D351633586300D13771 /* CRRootController.h */,
+				468C2D361633586300D13771 /* CRRootController.m */,
+				468C2D441633602C00D13771 /* CRRecipesView.h */,
+				468C2D451633602C00D13771 /* CRRecipesView.m */,
+				468C2D471633604B00D13771 /* CRMyIngredientsView.h */,
+				468C2D481633604B00D13771 /* CRMyIngredientsView.m */,
+				468C2D4C1633647100D13771 /* CRSetupViewController.h */,
+				468C2D4D1633647100D13771 /* CRSetupViewController.m */,
+				468C2D4F1633654500D13771 /* CRRootNavigationController.h */,
+				468C2D501633654500D13771 /* CRRootNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		468C2CFA163350E300D13771 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		468C2CFB163350E300D13771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		468C2CFC163350E300D13771 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D0F163350E300D13771 /* Classes */,
+				468C2D00163350E300D13771 /* Resources */,
+				468C2CFD163350E300D13771 /* Views */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		468C2CFD163350E300D13771 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				468C2CFE163350E300D13771 /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		468C2CFE163350E300D13771 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				468C2CFF163350E300D13771 /* Common */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		468C2CFF163350E300D13771 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		468C2D00163350E300D13771 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D01163350E300D13771 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		468C2D01163350E300D13771 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D02163350E300D13771 /* icon_iphone.png */,
+				468C2D04163350E300D13771 /* icon_iphone@2x.png */,
+				468C2D06163350E300D13771 /* icon_iphone_spotlight.png */,
+				468C2D08163350E300D13771 /* icon_iphone_spotlight@2x.png */,
+				468C2D0A163350E300D13771 /* launch_iphone.png */,
+				468C2D0C163350E300D13771 /* launch_iphone@2x.png */,
+				468C2D0E163350E300D13771 /* Common */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		468C2D0E163350E300D13771 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		468C2D0F163350E300D13771 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D10163350E300D13771 /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		468C2D10163350E300D13771 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D11163350E300D13771 /* Common */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		468C2D11163350E300D13771 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		468C2D12163350E300D13771 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D29163350E300D13771 /* Classes */,
+				468C2D16163350E300D13771 /* Resources */,
+				468C2D13163350E300D13771 /* Views */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		468C2D13163350E300D13771 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D14163350E300D13771 /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		468C2D14163350E300D13771 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D15163350E300D13771 /* Common */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		468C2D15163350E300D13771 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		468C2D16163350E300D13771 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D17163350E300D13771 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		468C2D17163350E300D13771 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D18163350E300D13771 /* icon_ipad.png */,
+				468C2D1A163350E300D13771 /* icon_ipad@2x.png */,
+				468C2D1C163350E300D13771 /* icon_ipad_spotlight.png */,
+				468C2D1E163350E300D13771 /* icon_ipad_spotlight@2x.png */,
+				468C2D20163350E300D13771 /* launch_ipad-Portrait.png */,
+				468C2D22163350E300D13771 /* launch_ipad-Landscape.png */,
+				468C2D24163350E300D13771 /* launch_ipad-Portrait@2x.png */,
+				468C2D26163350E300D13771 /* launch_ipad-Landscape@2x.png */,
+				468C2D28163350E300D13771 /* Common */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		468C2D28163350E300D13771 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		468C2D29163350E300D13771 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D2A163350E300D13771 /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		468C2D2A163350E300D13771 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				468C2D2B163350E300D13771 /* Common */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		468C2D2B163350E300D13771 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		468C2CD0163350E300D13771 /* cookright */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468C2D2F163350E300D13771 /* Build configuration list for PBXNativeTarget "cookright" */;
+			buildPhases = (
+				468C2CCD163350E300D13771 /* Sources */,
+				468C2CCE163350E300D13771 /* Frameworks */,
+				468C2CCF163350E300D13771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cookright;
+			productName = cookright;
+			productReference = 468C2CD1163350E300D13771 /* cookright.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		468C2CC8163350E300D13771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CR;
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 468C2CCB163350E300D13771 /* Build configuration list for PBXProject "cookright" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 468C2CC6163350E300D13771;
+			productRefGroup = 468C2CD2163350E300D13771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				468C2CD0163350E300D13771 /* cookright */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		468C2CCF163350E300D13771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468C2CED163350E300D13771 /* InfoPlist.strings in Resources */,
+				468C2CF0163350E300D13771 /* iTunesArtwork in Resources */,
+				468C2CF2163350E300D13771 /* iTunesArtwork@2x in Resources */,
+				468C2D03163350E300D13771 /* icon_iphone.png in Resources */,
+				468C2D05163350E300D13771 /* icon_iphone@2x.png in Resources */,
+				468C2D07163350E300D13771 /* icon_iphone_spotlight.png in Resources */,
+				468C2D09163350E300D13771 /* icon_iphone_spotlight@2x.png in Resources */,
+				468C2D0B163350E300D13771 /* launch_iphone.png in Resources */,
+				468C2D0D163350E300D13771 /* launch_iphone@2x.png in Resources */,
+				468C2D19163350E300D13771 /* icon_ipad.png in Resources */,
+				468C2D1B163350E300D13771 /* icon_ipad@2x.png in Resources */,
+				468C2D1D163350E300D13771 /* icon_ipad_spotlight.png in Resources */,
+				468C2D1F163350E300D13771 /* icon_ipad_spotlight@2x.png in Resources */,
+				468C2D21163350E300D13771 /* launch_ipad-Portrait.png in Resources */,
+				468C2D23163350E300D13771 /* launch_ipad-Landscape.png in Resources */,
+				468C2D25163350E300D13771 /* launch_ipad-Portrait@2x.png in Resources */,
+				468C2D27163350E300D13771 /* launch_ipad-Landscape@2x.png in Resources */,
+				468C2D34163357DC00D13771 /* CRRootView.xib in Resources */,
+				468C2D4116335E5300D13771 /* CRRecipesView.xib in Resources */,
+				468C2D4316335E8300D13771 /* CRMyIngredientsView.xib in Resources */,
+				468C2D4B1633637D00D13771 /* CRSetupView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		468C2CCD163350E300D13771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468C2CE2163350E300D13771 /* main.m in Sources */,
+				468C2CE7163350E300D13771 /* AppDelegate.m in Sources */,
+				468C2D371633586300D13771 /* CRRootController.m in Sources */,
+				468C2D461633602C00D13771 /* CRRecipesView.m in Sources */,
+				468C2D491633604B00D13771 /* CRMyIngredientsView.m in Sources */,
+				468C2D4E1633647100D13771 /* CRSetupViewController.m in Sources */,
+				468C2D511633654600D13771 /* CRRootNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		468C2D2C163350E300D13771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "cookright/Supporting Files/Entitlements.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		468C2D2D163350E300D13771 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "cookright/Supporting Files/Entitlements.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = AD_HOC;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		468C2D2E163350E300D13771 /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "cookright/Supporting Files/Entitlements.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = APP_STORE;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "App Store";
+		};
+		468C2D30163350E300D13771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cookright/Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = "cookright/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		468C2D31163350E300D13771 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cookright/Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = "cookright/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		468C2D32163350E300D13771 /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cookright/Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = "cookright/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "App Store";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		468C2CCB163350E300D13771 /* Build configuration list for PBXProject "cookright" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468C2D2C163350E300D13771 /* Debug */,
+				468C2D2D163350E300D13771 /* Ad Hoc */,
+				468C2D2E163350E300D13771 /* App Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		468C2D2F163350E300D13771 /* Build configuration list for PBXNativeTarget "cookright" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468C2D30163350E300D13771 /* Debug */,
+				468C2D31163350E300D13771 /* Ad Hoc */,
+				468C2D32163350E300D13771 /* App Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 468C2CC8163350E300D13771 /* Project object */;
+}
