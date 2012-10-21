@@ -1,6 +1,3 @@
-#import "CRCustomView.h"
-
-
 #pragma mark Constants
 
 
@@ -9,7 +6,7 @@
 
 #pragma mark - Class Interface
 
-@interface CRRecipesView : CRCustomView
+@interface CRCustomView : UIView
 
 
 #pragma mark - Properties
@@ -17,8 +14,7 @@
 
 #pragma mark - Constructors
 
-- (id)initWithFrame: (CGRect)frame;
-
+- (id)initWithNibName: (NSString *)nibName;
 
 #pragma mark - Static Methods
 
@@ -26,4 +22,4 @@
 #pragma mark - Instance Methods
 
 
-@end // @interface CRRecipesView
+@end // @interface CRCustomView

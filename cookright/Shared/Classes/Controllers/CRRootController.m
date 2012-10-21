@@ -1,4 +1,5 @@
 #import "CRRootController.h"
+#import "CRRecipesView.h"
 
 
 #pragma mark Constants
@@ -9,16 +10,13 @@
 @interface CRRootController ()
 {
     @private __weak UIView *_mainView;
-    @private __weak UIImageView *_welcomeImageView;
-    @private __weak UIButton *_okButton;
+    @private __strong UIView *_currentView;
+    @private __weak CRRecipesView *_recipiesView;
 }
 
 @property (nonatomic, weak) IBOutlet UIView *mainView;
-@property (nonatomic, weak) IBOutlet UIImageView *welcomeImageView;
-@property (nonatomic, weak) IBOutlet UIButton *okButton;
 
 - (void)CR_initializeRootController;
-- (IBAction)CR_hideWelcome: (id)sender;
 - (IBAction)CR_showLogo: (id)sender;
 - (IBAction)CR_showRecipes: (id)sender;
 - (IBAction)CR_showLists: (id)sender;
@@ -120,6 +118,11 @@
 	[super viewDidLoad];
 	
 	// Perform additional initialization after nib outlets are bound.
+    
+    // Create the views to switch between.
+    CGRect frame = self.mainView.frame;
+    _recipiesView = [[CRRecipesView alloc]
+        initWithFrame: frame];
 }
 
 - (void)viewWillAppear: (BOOL)animated
@@ -170,18 +173,18 @@
 	// Initialize instance variables.
 }
 
-- (IBAction)CR_hideWelcome: (id)sender
-{
-    self.welcomeImageView.hidden = YES;
-    self.okButton.hidden = YES;
-}
-
 - (IBAction)CR_showLogo: (id)sender
 {
 }
 
 - (IBAction)CR_showRecipes: (id)sender
 {
+    if (_currentView != nil)
+    {
+        [_currentView removeFromSuperview];
+    }
+    
+    [_mainView addSubview: _recipiesView];
 }
 
 - (IBAction)CR_showLists: (id)sender

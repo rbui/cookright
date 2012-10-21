@@ -39,6 +39,7 @@
 		468C2D4B1633637D00D13771 /* CRSetupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468C2D4A1633637D00D13771 /* CRSetupView.xib */; };
 		468C2D4E1633647100D13771 /* CRSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468C2D4D1633647100D13771 /* CRSetupViewController.m */; };
 		468C2D511633654600D13771 /* CRRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468C2D501633654500D13771 /* CRRootNavigationController.m */; };
+		468C2D6016338D4A00D13771 /* CRCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 468C2D5F16338D4A00D13771 /* CRCustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,8 @@
 		468C2D4D1633647100D13771 /* CRSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRSetupViewController.m; sourceTree = "<group>"; };
 		468C2D4F1633654500D13771 /* CRRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRRootNavigationController.h; sourceTree = "<group>"; };
 		468C2D501633654500D13771 /* CRRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRootNavigationController.m; sourceTree = "<group>"; };
+		468C2D5E16338D4A00D13771 /* CRCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRCustomView.h; sourceTree = "<group>"; };
+		468C2D5F16338D4A00D13771 /* CRCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +274,8 @@
 				468C2D4D1633647100D13771 /* CRSetupViewController.m */,
 				468C2D4F1633654500D13771 /* CRRootNavigationController.h */,
 				468C2D501633654500D13771 /* CRRootNavigationController.m */,
+				468C2D5E16338D4A00D13771 /* CRCustomView.h */,
+				468C2D5F16338D4A00D13771 /* CRCustomView.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -550,6 +555,7 @@
 				468C2D491633604B00D13771 /* CRMyIngredientsView.m in Sources */,
 				468C2D4E1633647100D13771 /* CRSetupViewController.m in Sources */,
 				468C2D511633654600D13771 /* CRRootNavigationController.m in Sources */,
+				468C2D6016338D4A00D13771 /* CRCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,7 +676,7 @@
 				468C2D2E163350E300D13771 /* App Store */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		468C2D2F163350E300D13771 /* Build configuration list for PBXNativeTarget "cookright" */ = {
 			isa = XCConfigurationList;
@@ -680,6 +686,7 @@
 				468C2D32163350E300D13771 /* App Store */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

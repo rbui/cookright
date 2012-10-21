@@ -29,17 +29,18 @@
 
 - (id)initWithFrame: (CGRect)frame
 {
-	// Abort if base initializer fails.
-	if ((self = [super initWithFrame: frame]) == nil)
+    // Abort if base initializer fails.
+	if ((self = [super initWithNibName: @"CRRecipesView"]) == nil)
 	{
 		return nil;
 	}
+    
+    self.frame = frame;
 	
 	// Initialize view.
-	[self _initializeRecipesView];
-	
-	// Return initialized instance.
-	return self;
+    [self _initializeRecipesView];
+
+    return self;
 }
 
 - (id)initWithCoder: (NSCoder *)coder
